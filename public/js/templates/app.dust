@@ -1,0 +1,11 @@
+<div class="row" id="header">
+	<h1>This is the header</h1>
+</div>
+<div class="row">
+	<div class="col-md-3 vertical-panel" id="left-sidebar">LEFT SIDEBAR</div>
+	<div class="col-md-6 vertical-panel" id="main-content">MAIN CONTENT</div>
+	<div class="col-md-3 vertical-panel" id="right-sidebar">RIGHT SIDEBAR</div>
+</div>
+<div class="row" id="footer">
+	<p>This could be a footer someday</p>
+</div>
