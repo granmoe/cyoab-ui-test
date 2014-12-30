@@ -1,0 +1,19 @@
+child views will be attached to and rendered into the following DOM nodes that the app view creates:
+
+#left-sidebar  -  this can have supporting material
+#main-content  -  this can have the main "story" and buttons for user interactions
+#right-sidebar  -  this can have conflicting material
+
+there is also
+
+#header
+#footer
+
+need to abstract "story" logic and encapsulate in a model/view
+	this will include the story text, choices to be displayed, and the positions beind the choices
+	position is added to user's story model
+	relevant queries are run and material added to for/against collections of the position
+	need a way to abstract the construction of the positions that doesn't depend on particulars of each
+
+Summary page that shows the choices the user made and material for / against each choice
+Can add features later like comparing to other known interpretations	
